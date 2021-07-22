@@ -14,13 +14,15 @@ public class MyClassMates {
         }
 
         System.out.println("_________________________________________________");
+
         String[] names2 = new String[4];
-        System.out.println("Size: " +names2.length );
-        names2[0] = "Lampsins";
+        names2[0] = "Lamp";
         for (int i = 0; i <= names2.length-1; i++) {
             System.out.println(names2[i]);
 
         }
+
+
 
     }
 }
