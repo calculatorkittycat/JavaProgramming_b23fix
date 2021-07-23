@@ -1,6 +1,6 @@
 package day_15_String;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Capitalization {
