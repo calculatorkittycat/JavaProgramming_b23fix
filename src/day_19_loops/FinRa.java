@@ -5,12 +5,12 @@ public class FinRa {
 
 String result = "";
         for (int i = 1; i < 100; i++) {
-            result += (i % 15 == 0 )? "FINRA " :(i % 3 == 0 ) ? "FIN " :(i%5 == 0)? "RA " : i+ " ";
+           // result += (i % 15 == 0 )? "FINRA " :(i % 3 == 0 ) ? "FIN " :(i%5 == 0)? "RA " : i+ " ";
 
 
 
 
-            /*
+
             if (i % 15 == 0) { //if number is divisible by 3 and 5 at the same time * changed to 15
                 System.out.print("finra ");
             } else if (i % 3 == 0) {
@@ -23,11 +23,11 @@ String result = "";
 
         }
 
-         */
-        }
         System.out.println(result);
+        }
+
     }
-}
+
 /*
 1. Write a method which prints out the numbers from 1 to 100 butfor numbers which are a multiple of both 3 and 5,
  print "FINRA" instead of the number,  for numbers which are a multiple of 3,
