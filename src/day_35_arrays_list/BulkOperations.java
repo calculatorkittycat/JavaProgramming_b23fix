@@ -7,13 +7,13 @@ public class BulkOperations {
 
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9) );
+        numbers.addAll(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
 
 
         ArrayList<Integer> list = new ArrayList<>();
         //list.addAll(1,2,3,4,5,6,7,8,9) //NO!
-        list.addAll(numbers );
-        list.addAll( Arrays.asList(10,11,12,13,14,15) );
+        list.addAll(numbers);
+        list.addAll(Arrays.asList(10, 11, 12, 13, 14, 15));
 
         System.out.println(list);
 
@@ -31,7 +31,7 @@ public class BulkOperations {
 
         ArrayList<Integer> nums = new ArrayList<>();
 
-        nums.addAll(Arrays.asList(1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4,4,4,5,5,5) ) ;
+        nums.addAll(Arrays.asList(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5));
         System.out.println("nums = " + nums);
 
         nums.removeAll(Arrays.asList(1));
@@ -42,18 +42,18 @@ public class BulkOperations {
 
         ArrayList<Integer> nums2 = new ArrayList<>();
 
-        nums2.addAll(Arrays.asList(1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4,4,4,5,5,5));
+        nums2.addAll(Arrays.asList(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5));
 
         System.out.println("nums2 = " + nums2);
 
-        nums2.retainAll(Arrays.asList(1,2));
+        nums2.retainAll(Arrays.asList(1, 2));
 
         System.out.println("nums2 = " + nums2);
 
         System.out.println("__________________________________________");
 
         ArrayList<String> employees = new ArrayList<>();
-        employees.addAll(Arrays.asList("Dwight","Angela","Kevin","Darrel","Michael"));
+        employees.addAll(Arrays.asList("Dwight", "Angela", "Kevin", "Darrel", "Michael"));
 
         System.out.println("employees = " + employees);
 
@@ -65,12 +65,14 @@ public class BulkOperations {
         System.out.println("__________________________________________");
 
         ArrayList<String> groceryList = new ArrayList<>();
-        groceryList.addAll(Arrays.asList("Soda","Kit-Kat","Sugar", "Sweet tarts", "Pop Tarts", "Fudge", "Cookies","Taffy", "Toffee"));
+        groceryList.addAll(Arrays.asList("Soda", "Kit-Kat", "Sugar", "Sweet tarts", "Pop Tarts", "Fudge", "Cookies", "Taffy", "Toffee"));
 
         //check if kit-kat, sugar, and toffee are contained in list
         boolean r = groceryList.containsAll(Arrays.asList("Kit-Kat", "Sugar", "Toffee", "Smellmo"));
 
         System.out.println("r = " + r);
+
+
 
     }
 }
