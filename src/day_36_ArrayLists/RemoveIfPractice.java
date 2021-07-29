@@ -12,7 +12,7 @@ public class RemoveIfPractice {
 
 
         ArrayList<Integer> gradeOfA = new ArrayList<>(scores); // 90 ~ 100
-        gradeOfA.removeIf(p -> !(p <= 90 && p <= 100));
+        gradeOfA.removeIf(p -> !(p >= 90 && p <= 100));
         System.out.println("gradeOfA = " + gradeOfA);
 
         ArrayList<Integer> gradeOfB = new ArrayList<>(scores); // 80 ~ 89

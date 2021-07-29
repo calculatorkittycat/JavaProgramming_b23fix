@@ -18,7 +18,7 @@ return reverse;
 
     public static boolean isPalindrome(String str){
        String reversedStr = reverse(str); //
-        return str.equals(reversedStr);
+        return str.equalsIgnoreCase(reversedStr);
     }
 
 

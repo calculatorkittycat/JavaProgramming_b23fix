@@ -12,17 +12,15 @@ public class Practice {
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
-        list.addAll(Arrays.asList(1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 7, 7, 8, 8, 8));
+        list.addAll(Arrays.asList(1,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,6,6,6,7,7,7,8,8) );
+
         System.out.println(list);
 
-
-        //NO! cant use .remove method inside a loop because elements keep shifting
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) < 5) {
+        for (int i = 0; i < list.size() ; i++) {
+            if(list.get(i) %2 != 0){
                 list.remove(i);
             }
         }
-
 
         System.out.println(list);
 
@@ -45,7 +43,35 @@ public class Practice {
         System.out.println(str1);
 
         System.out.println("____________________");
+
+
+        ArrayList<String> words = new ArrayList<>();
+        words.addAll( Arrays.asList( "Anna", "Racecar", "Level", "Java", "Python", "Cybertek", "Sabas", "Pop", "Kayak" ));
+
+        System.out.println( words);
+
+        words.removeIf( p -> StringUtilities.isPalindrome(p) ); //if the string is palindrome, then remove it from the arraylist
+
 /*
+        for (int j =0; j <= words.size()-1; j++) {
+            String reverse = "";
+            for(int i = words.get(j).length()-1; i >=0; i--){
+                reverse += words.get(j).charAt(i);
+            }
+            boolean isPalindrome = reverse.equalsIgnoreCase(words.get(j));
+            words.removeIf( p -> isPalindrome );
+        }
+*/
+
+        System.out.println(words);
+
+
+
+
+
+
+/*
+
         ArrayList<String> str2 = new ArrayList<>();
         str2.addAll(Arrays.asList("Anna", "Racecar", "level", "Java", "Python", "Cybertek", "Sabas", "pop"));
         System.out.println(str2);

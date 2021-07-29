@@ -1,4 +1,4 @@
-package Practice;
+package day_36_ArrayLists;
 
 import com.sun.xml.internal.bind.v2.runtime.reflect.Lister;
 
@@ -27,7 +27,7 @@ public class CollectionUtility {
         System.out.println(list);
 
        int f =  Collections.frequency(list, 1000);
-        System.out.println(list);
+        System.out.println(f);
 
         System.out.println("_______________");
 
