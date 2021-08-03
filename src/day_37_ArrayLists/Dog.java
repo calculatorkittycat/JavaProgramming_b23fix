@@ -8,7 +8,7 @@ public class Dog {
     public String size;
     public String color;
     public String gender;
-
+//instance methods do not have static keyword
     public void eat(String food){
         System.out.println(name + " is eating " + food);
     }
