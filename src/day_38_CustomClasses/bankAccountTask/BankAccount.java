@@ -32,7 +32,9 @@ public void withdraw(double amount){
         return;
     }
     if(amount > balance){
+        System.out.println("A overdraft fee of 35$ was deducted from your account");
         balance -= 35;
+
     }
 
     System.out.println("Withdrawing " + amount + " from account " + accountNumber);
