@@ -7,6 +7,7 @@ public class Address {
 
     public static String country = "USA";
 
+
     public void setInfo(String buildingNumber, String street, String city, String state, int zipCode) {
         this.buildingNumber = buildingNumber;
         this.street = street;
