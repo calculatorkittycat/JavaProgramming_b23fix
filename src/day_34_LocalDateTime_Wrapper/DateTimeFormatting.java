@@ -9,7 +9,7 @@ public class DateTimeFormatting {
 
     public static void main(String[] args) {
 
-        DateTimeFormatter DF = DateTimeFormatter.ofPattern("MM/dd/YYYY/EEEE");
+        DateTimeFormatter DF = DateTimeFormatter.ofPattern("MM/dd/yyyy");
         LocalDate today = LocalDate.now();
 
         System.out.println(today);

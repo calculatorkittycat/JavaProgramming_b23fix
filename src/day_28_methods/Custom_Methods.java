@@ -8,10 +8,12 @@ public class Custom_Methods {
 
     }
     public static void printHello5Times(){
+        int n = -5;
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Hello");
+            n*= i;
         }
+        System.out.println(n);
     }
 
 }

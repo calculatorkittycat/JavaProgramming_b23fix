@@ -14,9 +14,14 @@ public class LocalTimePractice {
 
         DateTimeFormatter df = DateTimeFormatter.ofPattern("EEEE:yyy:MMM");
 
-        LocalDate DoB = LocalDate.of(1990,05,07);
+        LocalDate DoB = LocalDate.of(1990,07,07);
 
         System.out.println(df.format(DoB));
+
+        String str1 = "five";
+        String str2 = "six";
+
+        System.out.println(str1.equals(str2));
 
 
     }

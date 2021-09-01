@@ -10,6 +10,11 @@ public class ReturnMethods {
         boolean isPalindrome = isPalindrome(str);
 
         System.out.println("isPalindrome = " + isPalindrome);
+
+
+
+
+
     }
 
 
@@ -35,6 +40,11 @@ public class ReturnMethods {
         }
  */
         return (reversedStr.equalsIgnoreCase(str)) ? true : false;
+
+
+
+
+
     }
 
 
