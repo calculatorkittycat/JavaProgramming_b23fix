@@ -8,7 +8,7 @@ public class Tester extends Employee {
 
     @Override
     public void work() {
-        System.out.println(getName() + " is testing software.");
+        System.out.println(name + " is testing software.");
     }
 
     public void testScripts(){

@@ -1,0 +1,32 @@
+
+
+1- Checked vs Unchecked
+
+    Checked: Unwanted Event
+
+        -occurs in compile time
+        -it Must be handled otherwise code will not compile
+        -Easy to catch
+        -Solution
+            -Try Catch
+            -throws
+
+
+    Unchecked: Unexpected Event
+
+        -Occurs in runtime( All unchecked exception are runtime exceptions)
+        -Code will compile, but not run
+        -Not easy to catch
+        -Solution
+            -Try Catch
+
+2- Try Catch
+
+        -can be used for both checked and unchecked exceptions
+
+        MULTIPLE TRY CATCH
+
+        - Try block will be capable of throwing exception one or more
+          If we dont know exception type we should use multiple catch blocks to catch it
+
+        Rule: Parent exception type cannot be placed before Child

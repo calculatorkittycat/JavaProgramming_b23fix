@@ -23,5 +23,12 @@ public class SwitchStatement02 {
                 System.err.println("Invalid browser name");
         }
 
+        String one = "java";
+
+        switch (one) {
+
+            //case
+        }
+
     }
 }

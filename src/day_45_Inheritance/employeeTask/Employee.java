@@ -15,7 +15,11 @@ public class Employee extends Person {
     }
 
     public void work(){
-        System.out.println(name + " is working.");
+        System.out.println(name  + " is working.");
+    }
+
+    public void eat(){
+        System.out.println(name);
     }
 
     public void attendMeeting(){

@@ -4,7 +4,7 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-        String result = "";
+        //String result = "";
 
 
         for (int i = 1; i < 100; i++) {
@@ -18,7 +18,7 @@ public class FizzBuzz {
                 System.out.print(i + " ");
             }
         }
-        System.out.print(result + " ");
+        //System.out.print(result + " ");
 
 
 

@@ -33,7 +33,24 @@ public class ArrayListIntro {
             System.out.println(each);
         }
 
+        System.out.println("________________");
+        switch ("jeff") {
+
+            case "john":
+                System.out.println("John is selected");
+                break;
+            case "jeff":
+                System.out.println("jeff is selected");
+                break;
+            default:
+                System.out.println("Default");
+        }
+
+
+
+
     }
+
 
 
 }

@@ -2,7 +2,7 @@ package day_51_Abstraction.employee;
 
 public abstract class Employee {
 
-    private String name;
+    public String name;
     private char gender;
     private String jobTitle;
     private double salary;

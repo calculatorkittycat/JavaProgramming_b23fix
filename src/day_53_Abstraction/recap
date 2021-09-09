@@ -1,0 +1,24 @@
+Abstract Class Vs Interface
+
+abstract extends interface implements
+
+Both are used for achieving abstraction
+Both are meant to be inherited
+Both can not create objects
+Both can not be final, because final can not be inherited
+
+
+Abstract Class:
+One class can only extend on abstract class
+Has to be the parent and will only contain the common features
+Can have everything a regular class can
+4 access modifiers in abstract class
+
+
+Interface:
+One class can implement multiple interfaces
+Variable: public static final default
+Methods: abstract method, static method, default method
+One access modifier in interface
+
+Will only contain the features that the subclass will need to implement
