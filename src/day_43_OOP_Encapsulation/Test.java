@@ -4,6 +4,11 @@ public class Test {
 
     public static void main(String[] args) {
 
+
+        Circle circle = new Circle(3);
+        Circle circle1 = new Circle(4);
+
+
         System.out.println(AccessModifiers.publicVariable);
         System.out.println(AccessModifiers.protectedVariable);
         System.out.println(AccessModifiers.defaultVariable);

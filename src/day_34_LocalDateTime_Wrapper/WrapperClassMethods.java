@@ -7,9 +7,9 @@ public class WrapperClassMethods {
         //parse methods are for converting string to primitive
 
         String str = "123";
-        System.out.println(str+1);
-        int num = Integer.parseInt(str);//converts string to primitive
-        System.out.println(num+1);
+        System.out.println("str = " + str+(2*2));
+        int num = Integer.parseInt(str);
+        System.out.println("num" + num+1+(3*2)  );
 
         String str2 = "123";
         int num2 = Integer.valueOf(str);//wrapper is being converted to int primitive//unboxing
@@ -42,17 +42,16 @@ public class WrapperClassMethods {
         System.out.println(isSpecialChar);
 
         System.out.println("________________________________________");
+        System.out.println("________________________________________");
 
         String s = "a1b2c3";
+
         int sum = 0;
         for (char each : s.toCharArray()) {
             if(Character.isDigit(each)){
                 sum += Integer.parseInt(""+each);
-                //sum+=each;
             }
-
         }
-
         System.out.println("Sum" + sum);
 
         System.out.println("________________________________________");

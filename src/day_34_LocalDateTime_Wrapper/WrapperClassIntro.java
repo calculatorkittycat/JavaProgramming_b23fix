@@ -26,6 +26,13 @@ public class WrapperClassIntro {
         Byte c2 = c1; //--  Autoboxing
 
 
+        Byte b = 100;
+        byte a = b;
+
+        char cha = '@';
+        Character cha1 = (Character) cha;
+
+
 
 
 
