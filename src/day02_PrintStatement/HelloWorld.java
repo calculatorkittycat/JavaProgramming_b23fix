@@ -6,7 +6,7 @@ public class HelloWorld {
   public static void main(String[] args){
 
 
-    System.out.println("Hello World!OMFG")
+    System.out.println("Hello World!")
 
     /*
     Yestday was May 20th 2021
