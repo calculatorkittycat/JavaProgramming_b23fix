@@ -22,6 +22,12 @@ public class MapPractice1 {
 
         System.out.println("-----------------------------------------------------");
 
+        for (Map.Entry<String, LocalDate> stringLocalDateEntry : map.entrySet()) {
+            System.out.println(stringLocalDateEntry);
+            System.out.println("@@@@@@@@@@@@@@");
+        }
+
+
         for (Map.Entry<String, LocalDate> entry : map.entrySet()) {
             if(entry.getValue().isBefore(LocalDate.of(2015,1,1))){
                 System.out.println(entry.getKey());

@@ -16,6 +16,10 @@ public class IterablePractice {
             }
         }
 
+
+
+
+
         System.out.println("list = " + list); //does not work because every time the collection shrinks the idex numbers are changing
 
         List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
